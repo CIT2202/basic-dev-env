@@ -19,7 +19,8 @@ This codespace is where you will do all your practical work in the module. You w
 - In the codespace, using the file explorer, create a new folder. Name it 'test'.
 - Inside this folder create a new page. Name it 'test.php'.
 - Enter the following into this page:
-  ````html
+
+```html
   <!DOCTYPE html>
   <html>
     <head>
@@ -32,7 +33,8 @@ This codespace is where you will do all your practical work in the module. You w
     ?>
     </body>
   </html>
-  ```
+```
+  
 - Save the page
 - In the terminal enter the following to start Apache
   ```
