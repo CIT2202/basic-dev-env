@@ -13,9 +13,15 @@
       "extensions": [
         "bmewburn.vscode-intelephense-client",
         "cweijan.vscode-database-client2"
-      ]
-    }
+      ],
+	  "settings": {
+      "editor.formatOnSave": true,
+      "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+       }
+      }
+	}
   },
   "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html",
-  "postStartCommand": "apache2ctl start",
+  "postStartCommand": "apache2ctl start"
 }
