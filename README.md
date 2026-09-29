@@ -32,8 +32,7 @@ This codespace is where you will do all your practical work in the module. You w
     ?>
     </body>
   </html>
-  ```html
-  ````
+  ```
 - Save the page
 - In the terminal enter the following to start Apache
   ```
