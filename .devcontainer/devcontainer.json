@@ -3,10 +3,10 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "forwardPorts": [8000, 8080],
+  "forwardPorts": [8080, 8081],
   "portsAttributes": {
-	"8000": { "label": "PHP site", "onAutoForward": "openPreview" },
-	"8080": { "label": "Adminer", "onAutoForward": "notify" }
+	"8080": { "label": "PHP site (Apache)", "onAutoForward": "openPreview" },
+	"8081": { "label": "Adminer", "onAutoForward": "notify" }
   },
   "customizations": {
     "vscode": {
